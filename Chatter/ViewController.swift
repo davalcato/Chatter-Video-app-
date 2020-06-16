@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func startChat(_ sender: Any) {
+        helloLabel.text = "Hello to Chatter user!"
         
     }
     
