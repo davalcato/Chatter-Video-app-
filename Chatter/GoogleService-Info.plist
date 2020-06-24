@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>872555308185-719bpdlsh8rpvne0cl6stcihh9k3mtpm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.872555308185-719bpdlsh8rpvne0cl6stcihh9k3mtpm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDO3Z1mEjPjQfdy2r8wOufLwIPdNlKEkBo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>872555308185</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.techsector.Chatter</string>
+	<key>PROJECT_ID</key>
+	<string>chatter-331dd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatter-331dd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:872555308185:ios:f8aa6408469a2f09acc408</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatter-331dd.firebaseio.com</string>
+</dict>
+</plist>

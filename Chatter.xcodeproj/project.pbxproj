@@ -24,6 +24,9 @@
 		7543337C24999F04003DD6E1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7543337224999EB4003DD6E1 /* CoreMedia.framework */; };
 		7543337D24999F0E003DD6E1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7543337724999EB4003DD6E1 /* SystemConfiguration.framework */; };
 		7543337E24999F1F003DD6E1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7543337424999EB4003DD6E1 /* libc++.tbd */; };
+		7578E25424A2B20E007F0218 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7578E25324A2B20E007F0218 /* GoogleService-Info.plist */; };
+		7578E25824A2C413007F0218 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7578E25724A2C413007F0218 /* Configuration.plist */; };
+		7578E26224A2D477007F0218 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578E26124A2D477007F0218 /* ConfigurationManager.swift */; };
 		8D688715FE74BAAD213A8A05 /* Pods_Chatter_ChatterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD28B1CB2A0CBB71D84C967 /* Pods_Chatter_ChatterUITests.framework */; };
 		E4D640A4D968611D0E3DA856 /* Pods_ChatterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8927811D3BF2D5E3206A8B /* Pods_ChatterTests.framework */; };
 /* End PBXBuildFile section */
@@ -48,7 +51,9 @@
 /* Begin PBXFileReference section */
 		2ABB7A086A3C3888CA503004 /* Pods-Chatter-ChatterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatter-ChatterUITests.release.xcconfig"; path = "Target Support Files/Pods-Chatter-ChatterUITests/Pods-Chatter-ChatterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2B8927811D3BF2D5E3206A8B /* Pods_ChatterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB29AD956A38AFF4EE6D078 /* Pods-Chatter-ChatterUITests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatter-ChatterUITests.development.xcconfig"; path = "Target Support Files/Pods-Chatter-ChatterUITests/Pods-Chatter-ChatterUITests.development.xcconfig"; sourceTree = "<group>"; };
 		5FD28B1CB2A0CBB71D84C967 /* Pods_Chatter_ChatterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatter_ChatterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D61AE78C1DB64FC78FA1A2 /* Pods-Chatter.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatter.development.xcconfig"; path = "Target Support Files/Pods-Chatter/Pods-Chatter.development.xcconfig"; sourceTree = "<group>"; };
 		751CAF352495A77600711003 /* Chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751CAF382495A77600711003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		751CAF3A2495A77600711003 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,11 +78,18 @@
 		7543337624999EB4003DD6E1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		7543337724999EB4003DD6E1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7543337824999EB4003DD6E1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7578E25324A2B20E007F0218 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7578E25724A2C413007F0218 /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		7578E26124A2D477007F0218 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
 		7A666197F770C8A69F7DC59C /* Pods-Chatter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatter.debug.xcconfig"; path = "Target Support Files/Pods-Chatter/Pods-Chatter.debug.xcconfig"; sourceTree = "<group>"; };
 		7CA86ED089C937657393724F /* Pods-ChatterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterTests.release.xcconfig"; path = "Target Support Files/Pods-ChatterTests/Pods-ChatterTests.release.xcconfig"; sourceTree = "<group>"; };
 		97C4C4662B9FC1EFA48DB14D /* Pods-Chatter-ChatterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatter-ChatterUITests.debug.xcconfig"; path = "Target Support Files/Pods-Chatter-ChatterUITests/Pods-Chatter-ChatterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A06B0BDC9C49141FE4794657 /* Pods-ChatterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterTests.debug.xcconfig"; path = "Target Support Files/Pods-ChatterTests/Pods-ChatterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6A4B48B920DADEEA8119AA2 /* Pods-ChatterTests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterTests.production.xcconfig"; path = "Target Support Files/Pods-ChatterTests/Pods-ChatterTests.production.xcconfig"; sourceTree = "<group>"; };
 		AB1633D72ECC83B556303E7A /* Pods_Chatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB3DD9ABC66228558FC0061 /* Pods-Chatter-ChatterUITests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatter-ChatterUITests.production.xcconfig"; path = "Target Support Files/Pods-Chatter-ChatterUITests/Pods-Chatter-ChatterUITests.production.xcconfig"; sourceTree = "<group>"; };
+		ECBC62034B4694F714FAE16C /* Pods-ChatterTests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterTests.development.xcconfig"; path = "Target Support Files/Pods-ChatterTests/Pods-ChatterTests.development.xcconfig"; sourceTree = "<group>"; };
+		F8BFB7E7D7E326B06B65F90E /* Pods-Chatter.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatter.production.xcconfig"; path = "Target Support Files/Pods-Chatter/Pods-Chatter.production.xcconfig"; sourceTree = "<group>"; };
 		FE0EB3407036AF9957347DA2 /* Pods-Chatter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatter.release.xcconfig"; path = "Target Support Files/Pods-Chatter/Pods-Chatter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,10 +158,13 @@
 				751CAF382495A77600711003 /* AppDelegate.swift */,
 				751CAF3A2495A77600711003 /* SceneDelegate.swift */,
 				751CAF3C2495A77600711003 /* ViewController.swift */,
+				7578E26124A2D477007F0218 /* ConfigurationManager.swift */,
 				751CAF3E2495A77600711003 /* Main.storyboard */,
 				751CAF412495A77900711003 /* Assets.xcassets */,
 				751CAF432495A77900711003 /* LaunchScreen.storyboard */,
 				751CAF462495A77900711003 /* Info.plist */,
+				7578E25724A2C413007F0218 /* Configuration.plist */,
+				7578E25324A2B20E007F0218 /* GoogleService-Info.plist */,
 			);
 			path = Chatter;
 			sourceTree = "<group>";
@@ -181,6 +196,12 @@
 				2ABB7A086A3C3888CA503004 /* Pods-Chatter-ChatterUITests.release.xcconfig */,
 				A06B0BDC9C49141FE4794657 /* Pods-ChatterTests.debug.xcconfig */,
 				7CA86ED089C937657393724F /* Pods-ChatterTests.release.xcconfig */,
+				68D61AE78C1DB64FC78FA1A2 /* Pods-Chatter.development.xcconfig */,
+				F8BFB7E7D7E326B06B65F90E /* Pods-Chatter.production.xcconfig */,
+				3FB29AD956A38AFF4EE6D078 /* Pods-Chatter-ChatterUITests.development.xcconfig */,
+				ACB3DD9ABC66228558FC0061 /* Pods-Chatter-ChatterUITests.production.xcconfig */,
+				ECBC62034B4694F714FAE16C /* Pods-ChatterTests.development.xcconfig */,
+				A6A4B48B920DADEEA8119AA2 /* Pods-ChatterTests.production.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -315,6 +336,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				751CAF452495A77900711003 /* LaunchScreen.storyboard in Resources */,
+				7578E25824A2C413007F0218 /* Configuration.plist in Resources */,
+				7578E25424A2B20E007F0218 /* GoogleService-Info.plist in Resources */,
 				751CAF422495A77900711003 /* Assets.xcassets in Resources */,
 				751CAF402495A77600711003 /* Main.storyboard in Resources */,
 			);
@@ -461,6 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7578E26224A2D477007F0218 /* ConfigurationManager.swift in Sources */,
 				751CAF3D2495A77600711003 /* ViewController.swift in Sources */,
 				751CAF392495A77600711003 /* AppDelegate.swift in Sources */,
 				751CAF3B2495A77600711003 /* SceneDelegate.swift in Sources */,
@@ -768,6 +792,256 @@
 			};
 			name = Release;
 		};
+		7578E25924A2C693007F0218 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Development;
+		};
+		7578E25A24A2C693007F0218 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D61AE78C1DB64FC78FA1A2 /* Pods-Chatter.development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Chatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsector.Chatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Development;
+		};
+		7578E25B24A2C693007F0218 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBC62034B4694F714FAE16C /* Pods-ChatterTests.development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				INFOPLIST_FILE = ChatterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsector.ChatterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatter.app/Chatter";
+			};
+			name = Development;
+		};
+		7578E25C24A2C693007F0218 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB29AD956A38AFF4EE6D078 /* Pods-Chatter-ChatterUITests.development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				INFOPLIST_FILE = ChatterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsector.ChatterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatter;
+			};
+			name = Development;
+		};
+		7578E25D24A2C6AD007F0218 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Production;
+		};
+		7578E25E24A2C6AD007F0218 /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BFB7E7D7E326B06B65F90E /* Pods-Chatter.production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Chatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsector.Chatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Production;
+		};
+		7578E25F24A2C6AD007F0218 /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A4B48B920DADEEA8119AA2 /* Pods-ChatterTests.production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				INFOPLIST_FILE = ChatterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsector.ChatterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatter.app/Chatter";
+			};
+			name = Production;
+		};
+		7578E26024A2C6AD007F0218 /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB3DD9ABC66228558FC0061 /* Pods-Chatter-ChatterUITests.production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				INFOPLIST_FILE = ChatterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsector.ChatterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatter;
+			};
+			name = Production;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -775,7 +1049,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				751CAF5D2495A77900711003 /* Debug */,
+				7578E25924A2C693007F0218 /* Development */,
 				751CAF5E2495A77900711003 /* Release */,
+				7578E25D24A2C6AD007F0218 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -784,7 +1060,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				751CAF602495A77900711003 /* Debug */,
+				7578E25A24A2C693007F0218 /* Development */,
 				751CAF612495A77900711003 /* Release */,
+				7578E25E24A2C6AD007F0218 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -793,7 +1071,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				751CAF632495A77900711003 /* Debug */,
+				7578E25B24A2C693007F0218 /* Development */,
 				751CAF642495A77900711003 /* Release */,
+				7578E25F24A2C6AD007F0218 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -802,7 +1082,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				751CAF662495A77900711003 /* Debug */,
+				7578E25C24A2C693007F0218 /* Development */,
 				751CAF672495A77900711003 /* Release */,
+				7578E26024A2C6AD007F0218 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
