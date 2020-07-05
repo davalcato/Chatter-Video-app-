@@ -14,43 +14,9 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Some text here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fb-3w-W7j">
-                                <rect key="frame" x="129.5" y="61" width="116" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBI-1l-mr4">
-                                <rect key="frame" x="142.5" y="126.5" width="90" height="30"/>
-                                <state key="normal" title="Start to chat "/>
-                                <connections>
-                                    <action selector="startChat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KIV-mD-fVt"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqt-uj-Ql2">
-                                <rect key="frame" x="154.5" y="164.5" width="66" height="30"/>
-                                <state key="normal" title="Hide text "/>
-                                <connections>
-                                    <action selector="hideText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bqt-li-QHG"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="lBI-1l-mr4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2PU-mY-Yy4"/>
-                            <constraint firstItem="lBI-1l-mr4" firstAttribute="top" secondItem="7Fb-3w-W7j" secondAttribute="bottom" constant="45" id="Kcr-BO-Edd"/>
-                            <constraint firstItem="7Fb-3w-W7j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="dAC-t3-ViM"/>
-                            <constraint firstItem="7Fb-3w-W7j" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="f5b-6k-LuO"/>
-                            <constraint firstItem="xqt-uj-Ql2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nW4-oP-ZhN"/>
-                            <constraint firstItem="xqt-uj-Ql2" firstAttribute="top" secondItem="lBI-1l-mr4" secondAttribute="bottom" constant="8" id="rhX-mO-o5E"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="helloLabel" destination="7Fb-3w-W7j" id="8Jd-Hv-ILS"/>
-                        <outlet property="hideTextButton" destination="xqt-uj-Ql2" id="Jpj-RR-K5h"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
