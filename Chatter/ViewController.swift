@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import TwilioCommon
+import SwiftyJSON
+
 
 class ViewController: UIViewController {
 
@@ -30,13 +33,22 @@ class ViewController: UIViewController {
     var incomingInvite: TWCIncomingInvite?
     var outgoingInvite: TWCOutgoingInvite?
     
+
+    // MARK: UI Element Outlets and handles
+    @IBOutlet weak var remoteMediaView: UIView!
+    @IBOutlet weak var localMediaView: UIView!
+    @IBOutlet weak var identityLabel: UILabel!
     
-    
-    
-    
-    
-    
-    
+    // Helper to determine if we're running on simulator or device
+    struct Platform {
+        static let isSimulator: Bool = {
+            var isSim = false
+            #if arch(i386) || arch(x86_64)
+                isSim = true
+            #endif
+            return isSim
+        }()
+    }
     
     
     

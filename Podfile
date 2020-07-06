@@ -14,6 +14,9 @@ target 'Chatter' do
   pod 'Firebase/Database' 
   pod 'TwilioConversationsClient', '~>0.25.0'
   pod 'TwilioChatClient', '~> 2.4.2'
+  pod 'TwilioSDK', ' ~> 1.2.0'
+
+
 
 
   # Pods for Chatter
